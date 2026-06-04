@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "profile": "个人简介",
+    "timeline": "实战经验",
+    "services": "顾问服务",
+    "media": "媒体荣誉",
+    "reviews": "学员评价"
+  },
+  "hero": {
+    "name": "陈清豪 Ethan",
+    "location": "北京 / 上海 / 台北",
+    "role": "全方位跨界顾问",
+    "description": "具备 14 年软件设计、产品规划与 17 年高管及投资背景。他是 VC 合伙人、资深运营专家与技术译著者。Ethan 将技术专长、运营实战与投资人视角结合，协助人才进行职涯复盘，为创业者提供落地的人才组织与战略建议。"
+  },
+  "profile": {
+    "title": "复合型专业背景",
+    "subtitle": "软件设计、产品规划、规模化运营与投资视角的完美融合",
+    "p1": "Ethan 拥有 14 年软件设计、产品规划与 17 年高管及投资经验。他曾任 ASUS 与 SYSTEX 的研发主管，主导过大型医疗系统开发并获得 FDA 认证。作为连续创业者，他联合创办了街旁网（500 万用户）与暖岛网，具备从 0-1 搭建百人团队的极强实战能力。",
+    "p2": "目前作为 VC 合伙人与独立天使投资人，Ethan 被「在行」评选为年度行家（评分 9.6/10）。他擅长以「全链路人才视角」——从 COO (招聘者) 到 VC (评估者) 再到职涯教练 (规划者)——协助高端人才突破瓶颈，并为企业精准寻访 CTO、VP 等核心岗位。",
+    "advantage_title": "核心优势：人才生态全链路",
+    "advantage_desc": "具备 360 度选人视角，能对核心高管的胜任力、价值观匹配度及长期稳定性做出高准确率预判。",
+    "endorsement_title": "专业背书：技术译著者",
+    "endorsement_desc": "翻译并出版 6 本技术译著，其中《嵌入式 LINUX 系统》曾被清华大学选为教材，展现极强的专业深度与逻辑分析能力。",
+    "status_experts": "指导学员",
+    "status_projects": "投资项目",
+    "status_rating": "在行评分",
+    "status_experience": "实战年资",
+    "status_role": "核心领域",
+    "exp_value": "27+ 年",
+    "rating_value": "9.6 / 10",
+    "role_value": "VC 合伙人",
+    "honors_title": "荣誉与认可",
+    "honors": {
+      "item1": { "cat": "行业活动", "title": "科技峰会主题演讲" },
+      "item2": { "cat": "媒体报道", "title": "CCTV-13 专访：台湾创业者" },
+      "item3": { "cat": "在行平台", "title": "2018 年度行家奖杯" },
+      "item4": { "cat": "专业顾问", "title": "清华三创大赛导师" }
+    }
+  },
+  "experience": {
+    "title": "实战历程",
+    "subtitle": "从研发高管、连续创业者到创投合伙人的跨界成长",
+    "items": [
+      {
+        "year": "2024 - Present",
+        "title": "独立天使投资人 / 资深职涯顾问",
+        "subtitle": "高端人才战略与团队尽调",
+        "desc": "以独立投资人身份通过深度访谈评估创业团队，并为技术专家与高管提供转型建议。"
+      },
+      {
+        "year": "2017 - 2024",
+        "title": "麟玺创投 合伙人",
+        "subtitle": "创业投资与投后赋能",
+        "desc": "赋能 30+ 投后项目。在人才维度行使核心岗位评估的「一票否决权」，累计触达 2,000+ 高端人才资源。"
+      },
+      {
+        "year": "2015 - 2016",
+        "title": "运营副总",
+        "subtitle": "北京思源科技",
+        "desc": "从零到一构建百人规模运营中心，协调技术、产品、运营与市场等多职能协作。"
+      },
+      {
+        "year": "2009 - 2015",
+        "title": "联合创始人 / COO",
+        "subtitle": "街旁网 (Jiepang) / 暖岛网 (Nuandao)",
+        "desc": "中国首个 LBS 社交平台核心成员，累计 500 万用户。从零建置暖岛团队，涵盖技术、采购与仓储全职能。"
+      },
+      {
+        "year": "1994 - 2009",
+        "title": "研发副处长 / 高级产品经理",
+        "subtitle": "华硕电脑 (ASUS) / 精诚资讯 (SYSTEX)",
+        "desc": "主导大型医疗系统（PACS/RIS/HIS）研发，产品通过 FDA Class II 认证。建立技术人才评估体系。"
+      }
+    ]
+  },
+  "services": {
+    "title": "专业顾问服务",
+    "subtitle": "针对不同职场阶段与深度的实战建议",
+    "online": "线上咨询 (60min)",
+    "meetup": "线下约见 (2h)",
+    "item1": {
+      "title": "大学生就业指导 (第一步就做对)",
+      "desc": "针对学生与职场新人，协助厘清方向、选择公司与职场焦虑。",
+      "bullets": ["精确的个人优势市场定位", "Offer与职位的长期价值评估", "建立职涯叙事，脱颖而出"],
+      "priceOnline": "¥199/h",
+      "priceMeetup": "¥800/h"
+    },
+    "item2": {
+      "title": "职场规划辅导 (分析瓶颈, 走出低谷)",
+      "desc": "为资深专家与中层提供复盘，解决「懂技术不懂业务」的痛点。",
+      "bullets": ["复合型职场经验深度梳理", "职业天花板突破路径", "中长期职业职业价值构建"],
+      "priceOnline": "¥499/h",
+      "priceMeetup": "¥2000/h"
+    },
+    "item3": {
+      "title": "简历与面试辅导 (量身定制的传授)",
+      "desc": "实战派技巧，教你如何武装简历以对齐高级管理者视角。",
+      "bullets": ["简历含金量深度挖掘", "高管视角模拟面试", "谈薪及多Offer博弈策略"],
+      "priceOnline": "¥499/h",
+      "priceMeetup": "¥2000/h"
+    },
+    "item4": {
+      "title": "与COO一起检视你的运营项目",
+      "desc": "从运营、技术到商业逻辑，全视角诊断项目可行性与效率。",
+      "bullets": ["项目0-1冷启动逻辑诊断", "跨部门协作与管理盲点", "增长战略与规模化建议"],
+      "priceOnline": "¥599/h",
+      "priceMeetup": "¥2000/h"
+    },
+    "item5": {
+      "title": "投资人帮你看项目 (BP, 路演与融资)",
+      "desc": "用合伙人视角打磨你的商业计划书，避开融资中的风险陷阱。",
+      "bullets": ["BP逻辑链条及竞争力闭环", "融资节奏与路径规划", "路演模拟及Q&A实操"],
+      "priceOnline": "¥599/h",
+      "priceMeetup": "¥1000/h"
+    }
+  },
+  "media": {
+    "title": "全球媒体与荣誉",
+    "subtitle": "获得顶尖行业媒体与机构的高度认可与报道",
+    "items": [
+      { "id": "1", "title": "CCTV-13专访：从台湾来的网站创业者", "imageUrl": "/ethan_chen_media_interview_beijing_1780492088211.png", "category": "媒体" },
+      { "id": "2", "title": "科技峰会主题演讲", "imageUrl": "/ethan_chen_conference_keynote_speech_1780492102229.png", "category": "活动" },
+      { "id": "3", "title": "麟玺创投：投后人才赋能与创业者尽调", "imageUrl": "/ethan_chen_career_advisory_session_1780492117322.png", "category": "投资" },
+      { "id": "4", "title": "大型创业讲座嘉宾", "imageUrl": "/嘉賓.png", "category": "荣誉" },
+      { "id": "5", "title": "在行平台 2018 年度行家奖杯", "imageUrl": "/zaih_annual_mentor_award_2018_1780493414785.png", "category": "荣誉" },
+      { "id": "6", "title": "区块链行业专家交流展会", "imageUrl": "/区块练交流.png", "category": "专业" }
+    ]
+  },
+  "reviews": {
+    "title": "学员真实评价",
+    "subtitle": "来自「在行」平台的真实咨询反馈",
+    "stats": {
+      "rating": "综合评分",
+      "total": "累计评价",
+      "helpful": "真实好评"
+    },
+    "loadMore": "查看更多评价",
+    "allDisplayed": "已显示所有评价",
+    "more": "更多",
+    "less": "收回",
+    "prev": "上一页",
+    "next": "下一页"
+  }
+}

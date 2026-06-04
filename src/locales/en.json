@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "profile": "Profile",
+    "timeline": "Experience",
+    "services": "Services",
+    "media": "Media",
+    "reviews": "Reviews"
+  },
+  "hero": {
+    "name": "Ethan Chen",
+    "location": "Beijing / Shanghai / Taipei",
+    "role": "All-rounder Advisor",
+    "description": "With 14 years of software design, product planning and 17 years of executive and investment experience. He is a VC Partner, senior operations expert, and technical author/translator. Ethan combines technical expertise, operational practice, and investor perspective to assist talent in career review and provide practical talent organization and strategy advice for entrepreneurs."
+  },
+  "profile": {
+    "title": "Multidisciplinary Professional Background",
+    "subtitle": "Perfect fusion of software design, product planning, scalable operations, and investment perspective",
+    "p1": "Ethan has 14 years of software design, product planning background and 17 years of executive and investment experience. He was an R&D manager at ASUS and SYSTEX, leading large-scale medical system developments with FDA certification. As a serial entrepreneur, he co-founded Jiepang (5 million users) and Nuandao, with extremely strong practical ability to build teams of 100 people from scratch.",
+    "p2": "Currently a VC Partner and independent angel investor, Ethan was selected as an annual mentor by 'Zaih' (9.6/10 rating). He excels in using a 'full-chain talent perspective'—from COO (recruiter) to VC (evaluator) to career coach (planner)—to help high-end talent break through bottlenecks and precisely search for core positions such as CTO and VP for enterprises.",
+    "advantage_title": "Core Advantage: Full Talent Ecosystem",
+    "advantage_desc": "360-degree talent selection perspective, highly accurate prediction of core executives' competence, value matching, and long-term stability.",
+    "endorsement_title": "Professional Endorsement: Technical Author/Translator",
+    "endorsement_desc": "Translated and published 6 technical books (including 'Embedded Linux System', chosen as a textbook by Tsinghua University), demonstrating extreme professional depth and logical analysis.",
+    "status_experts": "Experts Mentored",
+    "status_projects": "Projects Funded",
+    "status_rating": "Zaih Rating",
+    "status_experience": "Years Experience",
+    "status_role": "Focus Role",
+    "exp_value": "27+ Years",
+    "rating_value": "9.6 / 10",
+    "role_value": "VC Partner",
+    "honors_title": "Honors & Recognition",
+    "honors": {
+      "item1": { "cat": "Industry Events", "title": "Tech Conference Keynote" },
+      "item2": { "cat": "Media", "title": "CCTV-13 Interview: Startup Founder" },
+      "item3": { "cat": "Zaih 在行", "title": "2018 Mentor of the Year" },
+      "item4": { "cat": "Advisory", "title": "Tsinghua Entrepreneurship Mentor" }
+    }
+  },
+  "experience": {
+    "title": "Professional Path",
+    "subtitle": "Cross-border growth from R&D executive to serial entrepreneur to venture capital partner",
+    "items": [
+      {
+        "year": "2024 - Present",
+        "title": "Independent Angel Investor & Senior Career Advisor",
+        "subtitle": "High-end Talent Strategy & Team Evaluation",
+        "desc": "Specializing in evaluating startup teams through deep-dive interviews and providing transition advisory for senior tech experts and executives."
+      },
+      {
+        "year": "2017 - 2024",
+        "title": "Partner at Linxi Venture (麟玺创投)",
+        "subtitle": "Venture Capital & Post-investment Empowerment",
+        "desc": "Empowered 30+ portfolio projects. Held 'veto power' on talent evaluation for core leadership positions (CEO, CTO, VP) and connected over 2,000 high-end talent profiles."
+      },
+      {
+        "year": "2015 - 2016",
+        "title": "VP of Operations",
+        "subtitle": "Siyuan Technology (北京思源科技)",
+        "desc": "Built a 100+ person operations center from scratch. Coordinated cross-functional teams across technology, product, and marketing for large-scale platform products."
+      },
+      {
+        "year": "2009 - 2015",
+        "title": "Co-founder & COO",
+        "subtitle": "Jiepang (街旁網) / Nuandao (暖島網)",
+        "desc": "Core member of China's first LBS social platform, scaling to 5 million users. Built Nuandao from 0 to 1, covering buyers, technology, and logistics."
+      },
+      {
+        "year": "1994 - 2009",
+        "title": "R&D Deputy Director & Senior PM",
+        "subtitle": "ASUS (華碩電腦) / SYSTEX (精誠資訊)",
+        "desc": "Led R&D for large-scale medical systems (PACS/RIS/HIS) with FDA Class II certification. Established technical talent assessment systems for architects and CTOs."
+      }
+    ]
+  },
+  "services": {
+    "title": "Expert Consultation",
+    "subtitle": "Practical suggestions categorized by stage and depth",
+    "online": "Online Consultation",
+    "meetup": "Personal Meetup",
+    "item1": {
+      "title": "College Career Guidance: Right First Step",
+      "desc": "For students/graduates: clarity on direction, role selection, and interview prep.",
+      "bullets": ["Strengths vs. Market positioning", "Long-term value evaluation", "Career narrative building"],
+      "priceOnline": "¥199/h",
+      "priceMeetup": "¥800/h"
+    },
+    "item2": {
+      "title": "Career Planning: Overcoming Bottlenecks",
+      "desc": "For experienced pros: transitioning from expert to executive roles.",
+      "bullets": ["Composite experience review", "Commercial perspective alignment", "Strategic career pivots"],
+      "priceOnline": "¥499/h",
+      "priceMeetup": "¥2000/h"
+    },
+    "item3": {
+      "title": "Resume & Interview Coaching",
+      "desc": "Customized tactical training to highlight your actual value to recruiters.",
+      "bullets": ["Resume deep cleaning", "Mock interviews", "Salary negotiation strategy"],
+      "priceOnline": "¥499/h",
+      "priceMeetup": "¥2000/h"
+    },
+    "item4": {
+      "title": "COO Project Review",
+      "desc": "Reviewing operations, logic, and scalability of your projects from 0 to 1.",
+      "bullets": ["Efficiency audits", "Growth strategy validation", "Team structure optimization"],
+      "priceOnline": "¥599/h",
+      "priceMeetup": "¥2000/h"
+    },
+    "item5": {
+      "title": "Investor Project Review (BP & Funding)",
+      "desc": "Refining your Business Plan and pitch through an investor's eyes.",
+      "bullets": ["BP logic refinement", "Roadshow simulation", "Financing rhythm control"],
+      "priceOnline": "¥599/h",
+      "priceMeetup": "¥1000/h"
+    }
+  },
+  "media": {
+    "title": "Global Media & Recognition",
+    "subtitle": "Honors and press coverage by top industry media and institutions",
+    "items": [
+      { "id": "1", "title": "CCTV-13 Interview: Startup Founder from Taiwan", "imageUrl": "/ethan_chen_media_interview_beijing_1780492088211.png", "category": "Media" },
+      { "id": "2", "title": "Tech Conference Keynote Speech", "imageUrl": "/ethan_chen_conference_keynote_speech_1780492102229.png", "category": "Event" },
+      { "id": "3", "title": "Linxi Venture: Portfolio Talent & Due Diligence", "imageUrl": "/ethan_chen_career_advisory_session_1780492117322.png", "category": "Investment" },
+      { "id": "4", "title": "Guest Speaker at Keynote Seminar", "imageUrl": "/嘉賓.png", "category": "Award" },
+      { "id": "5", "title": "Zaih 2018 Mentor of the Year Award", "imageUrl": "/zaih_annual_mentor_award_2018_1780493414785.png", "category": "Award" },
+      { "id": "6", "title": "Blockchain Industry Exchange", "imageUrl": "/区块练交流.png", "category": "Professional" }
+    ]
+  },
+  "reviews": {
+    "title": "Client Feedback",
+    "subtitle": "Genuine reviews from 'Zaih' users",
+    "stats": {
+      "rating": "Overall Rating",
+      "total": "Total Reviews",
+      "helpful": "Verified Helpful"
+    },
+    "loadMore": "Load More Reviews",
+    "allDisplayed": "All reviews displayed",
+    "more": "Read More",
+    "less": "Show Less",
+    "prev": "Prev",
+    "next": "Next"
+  }
+}

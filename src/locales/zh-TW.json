@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "profile": "個人簡介",
+    "timeline": "實戰經驗",
+    "services": "顧問服務",
+    "media": "媒體榮譽",
+    "reviews": "學員評價"
+  },
+  "hero": {
+    "name": "陳清豪 Ethan",
+    "location": "北京 / 上海 / 台北",
+    "role": "全方位跨界顧問",
+    "description": "具備 14 年軟體設計、產品規劃與 17 年高管及投資背景。他是 VC 合夥人、資深營運專家與技術譯著者。Ethan 將技術專長、營運實戰與投資人視角結合，協助人才進行職涯復盤，為創業者提供落地的人才組織與戰略建議。"
+  },
+  "profile": {
+    "title": "複合型專業背景",
+    "subtitle": "軟體設計、產品規劃、規模化營運與投資視角的完美融合",
+    "p1": "Ethan 擁有 14 年軟體設計、產品規劃與 17 年高管及投資背景。他曾任 ASUS 與 SYSTEX 的研發主管，主導過大型醫療系統開發並獲得 FDA 認證。作為連續創業者，他聯合創辦了街旁網（500 萬用戶）與暖島網，具備從 0-1 搭建百人團隊的極強實戰能力。",
+    "p2": "目前作為 VC 合夥人與獨立天使投資人，Ethan 被「在行」評選為年度行家（評分 9.6/10）。他擅長以「全鏈路人才視角」——從 COO (招聘者) 到 VC (評估者) 再到職涯教練 (規劃者)——協助高端人才突破瓶頸，並為企業精準尋訪 CTO、VP 等核心崗位。",
+    "advantage_title": "核心優勢：人才生態全鏈路",
+    "advantage_desc": "具備 360 度選人視角，能對核心高管的勝任力、價值觀匹配度及長期穩定性做出高準確率預判。",
+    "endorsement_title": "專業背書：技術譯著者",
+    "endorsement_desc": "翻譯並出版 6 本技術譯著，其中《嵌入式 LINUX 系統》曾被清華大學選為教材，展現極強的專業深度與邏輯分析能力。",
+    "status_experts": "指導學員",
+    "status_projects": "投資項目",
+    "status_rating": "在行評分",
+    "status_experience": "實戰年資",
+    "status_role": "核心領域",
+    "exp_value": "27+ 年",
+    "rating_value": "9.6 / 10",
+    "role_value": "VC 合夥人",
+    "honors_title": "榮譽與認可",
+    "honors": {
+      "item1": { "cat": "行業活動", "title": "科技峰會主題演講" },
+      "item2": { "cat": "媒體報導", "title": "CCTV-13 專訪：台灣創業者" },
+      "item3": { "cat": "在行平台", "title": "2018 年度行家獎盃" },
+      "item4": { "cat": "專業顧問", "title": "清華三創大賽導師" }
+    }
+  },
+  "experience": {
+    "title": "實戰歷程",
+    "subtitle": "從研發高管、連續創業者到創投合夥人的跨界成長",
+    "items": [
+      {
+        "year": "2024 - Present",
+        "title": "獨立天使投資人 / 資深職涯顧問",
+        "subtitle": "高端人才戰略與團隊盡調",
+        "desc": "以獨立投資人身份透過深度訪談評估創業團隊，並為技術專家與高管提供轉型建議。"
+      },
+      {
+        "year": "2017 - 2024",
+        "title": "麟璽創投 合夥人",
+        "subtitle": "創業投資與投後賦能",
+        "desc": "賦能 30+ 投後項目。在人才維度行使核心崗位評估的「一票否決權」，累計觸達 2,000+ 高端人才資源。"
+      },
+      {
+        "year": "2015 - 2016",
+        "title": "運營副總",
+        "subtitle": "北京思源科技",
+        "desc": "從零到一構建百人規模運營中心，協調技術、產品、運營與市場等多職能協作。"
+      },
+      {
+        "year": "2009 - 2015",
+        "title": "聯合創始人 / COO",
+        "subtitle": "街旁網 (Jiepang) / 暖島網 (Nuandao)",
+        "desc": "中國首個 LBS 社交平台核心成員，累積 500 萬用戶。從零建置暖島團隊，涵蓋技術、採購與倉儲全職能。"
+      },
+      {
+        "year": "1994 - 2009",
+        "title": "研發副處長 / 高級產品經理",
+        "subtitle": "華碩電腦 (ASUS) / 精誠資訊 (SYSTEX)",
+        "desc": "主導大型醫療系統（PACS/RIS/HIS）研發，產品通過 FDA Class II 認證。建立技術人才評估體系。"
+      }
+    ]
+  },
+  "services": {
+    "title": "專業顧問服務",
+    "subtitle": "針對不同職涯階段與深度的實戰建議",
+    "online": "線上諮詢 (60min)",
+    "meetup": "線下面見 (2h)",
+    "item1": {
+      "title": "大學生就業指導 (第一步就做對)",
+      "desc": "針對學生與職場新人，協助釐清方向、選擇公司與職涯焦慮。",
+      "bullets": ["精確的個人優勢市場定位", "Offer與職位的長期價值評估", "建立職涯敘事，脫穎而出"],
+      "priceOnline": "¥199/h",
+      "priceMeetup": "¥800/h"
+    },
+    "item2": {
+      "title": "職場規劃輔導 (分析瓶頸, 走出低谷)",
+      "desc": "為資深專家與中層提供復盤，解決「懂技術不懂業務」的痛點。",
+      "bullets": ["複合型職場經驗深度梳理", "職業天花板突破路徑", "中長期職業價值構建"],
+      "priceOnline": "¥499/h",
+      "priceMeetup": "¥2000/h"
+    },
+    "item3": {
+      "title": "履歷與面試輔導 (量身定制的傳授)",
+      "desc": "實戰派技巧，教你如何武裝履歷以對齊高級管理層視角。",
+      "bullets": ["履歷含金量深度挖掘", "高管視角模擬面試", "談薪及多Offer博弈策略"],
+      "priceOnline": "¥499/h",
+      "priceMeetup": "¥2000/h"
+    },
+    "item4": {
+      "title": "與COO一起檢視你的營運項目",
+      "desc": "從營運、技術到商業邏輯，全視角診斷項目可行性與效率。",
+      "bullets": ["項目0-1冷啟動邏輯診斷", "跨部門協作與管理盲點", "增長戰略與規模化建議"],
+      "priceOnline": "¥599/h",
+      "priceMeetup": "¥2000/h"
+    },
+    "item5": {
+      "title": "投資人幫你看項目 (BP, 路演與融資)",
+      "desc": "用合夥人視角打磨你的商業計劃書，避開融資中的風險陷阱。",
+      "bullets": ["BP邏輯鏈條及競爭力閉環", "融資節奏與路徑規劃", "路演模擬及Q&A實操"],
+      "priceOnline": "¥599/h",
+      "priceMeetup": "¥1000/h"
+    }
+  },
+  "media": {
+    "title": "全球媒體與榮譽",
+    "subtitle": "獲得頂尖行業媒體與機構的高度認可與報導",
+    "items": [
+      { "id": "1", "title": "CCTV-13專訪：從台灣來的網站創業者", "imageUrl": "/ethan_chen_media_interview_beijing_1780492088211.png", "category": "媒體" },
+      { "id": "2", "title": "科技峰會主題演講", "imageUrl": "/ethan_chen_conference_keynote_speech_1780492102229.png", "category": "活動" },
+      { "id": "3", "title": "麟璽創投：投後人才賦能與創業者盡調", "imageUrl": "/ethan_chen_career_advisory_session_1780492117322.png", "category": "投資" },
+      { "id": "4", "title": "大型創業講座嘉賓", "imageUrl": "/嘉賓.png", "category": "榮譽" },
+      { "id": "5", "title": "在行平台 2018 年度行家獎盃", "imageUrl": "/zaih_annual_mentor_award_2018_1780493414785.png", "category": "榮譽" },
+      { "id": "6", "title": "區塊鏈行業專家交流展會", "imageUrl": "/区块练交流.png", "category": "專業" }
+    ]
+  },
+  "reviews": {
+    "title": "學員真實評價",
+    "subtitle": "來自「在行」平台的真實諮詢反饋",
+    "stats": {
+      "rating": "綜合評分",
+      "total": "累計評價",
+      "helpful": "真實好評"
+    },
+    "loadMore": "查看更多評價",
+    "allDisplayed": "已顯示所有評價",
+    "more": "更多",
+    "less": "收起",
+    "prev": "上一頁",
+    "next": "下一頁"
+  }
+}
