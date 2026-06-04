@@ -43,6 +43,28 @@ export default function Profile() {
             <h4 className="text-[10px] font-bold text-zinc-400 uppercase tracking-widest italic mb-2">{t('profile.status_role')}</h4>
             <div className="text-4xl font-medium text-zinc-900">{t('profile.role_value')}</div>
           </div>
+
+          <div className="pt-8 border-t border-zinc-100 flex flex-col gap-4">
+            <h4 className="text-[10px] font-bold text-zinc-400 uppercase tracking-widest italic mb-2">Contact</h4>
+            <div className="flex flex-wrap gap-3">
+              <a
+                href="https://www.linkedin.com/in/ethanchen1/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 border border-zinc-200 rounded-full text-[10px] font-bold uppercase tracking-widest text-zinc-500 hover:text-zinc-900 hover:border-zinc-900 transition-all"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://www.zaih.com/falcon/mentors/2bllbjjbq3k"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 bg-zinc-900 border border-zinc-900 rounded-full text-[10px] font-bold uppercase tracking-widest text-white hover:bg-zinc-700 transition-all"
+              >
+                Zaih 在行
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 

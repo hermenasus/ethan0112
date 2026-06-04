@@ -5,7 +5,7 @@ export default function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section id="top" className="min-h-screen flex flex-col justify-center px-6 relative">
+    <section id="top" className="py-24 md:py-32 flex flex-col justify-center px-6 relative border-b border-zinc-50">
       <div className="max-w-7xl mx-auto w-full pt-12">
         <motion.div
           initial={{ opacity: 0 }}

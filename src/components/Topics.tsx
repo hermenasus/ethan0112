@@ -19,60 +19,57 @@ export default function Topics() {
 
   return (
     <Section id="topics" title={t('services.title')} subtitle={t('services.subtitle')}>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16">
+      <div className="grid md:grid-cols-2 gap-8">
         {topics.map((topic, index) => (
           <div
             key={topic.id}
-            className="group"
+            className="flex flex-col md:flex-row gap-6 p-6 border border-zinc-100 hover:border-zinc-900 transition-all bg-white group"
           >
-            <div className="aspect-[16/10] bg-zinc-50 border border-zinc-100 flex flex-col justify-between p-8 overflow-hidden mb-8 transition-all group-hover:border-zinc-300 relative">
-              <span className="text-zinc-100 text-8xl font-black italic absolute -bottom-4 -right-4 select-none">0{index + 1}</span>
-              
-              <div className="flex flex-col gap-2 relative z-10">
-                <div className="flex items-center justify-between bg-white border border-zinc-200 px-3 py-2 rounded-sm shadow-sm">
-                  <span className="text-[9px] font-bold uppercase tracking-widest text-zinc-400">
-                    {t('services.online')}
-                  </span>
-                  <span className="text-xs font-mono font-bold text-zinc-900 ml-4">
-                    {topic.priceOnline}
-                  </span>
-                </div>
-                {topic.hasMeetup && (
-                  <div className="flex items-center justify-between bg-white border border-zinc-200 px-3 py-2 rounded-sm shadow-sm">
-                    <span className="text-[9px] font-bold uppercase tracking-widest text-zinc-400">
-                      {t('services.meetup')}
+            <div className="md:w-1/3 flex flex-col justify-between">
+              <div>
+                <span className="text-[10px] font-bold text-zinc-300 uppercase tracking-widest italic block mb-4">
+                  Topic 0{index + 1}
+                </span>
+                <div className="space-y-2">
+                  <div className="flex items-center justify-between bg-zinc-50 border border-zinc-100 px-3 py-1.5 rounded-sm">
+                    <span className="text-[8px] font-bold uppercase tracking-widest text-zinc-400">
+                      {t('services.online')}
                     </span>
-                    <span className="text-xs font-mono font-bold text-zinc-900 ml-4">
-                      {topic.priceMeetup}
+                    <span className="text-[10px] font-mono font-bold text-zinc-900">
+                      {topic.priceOnline}
                     </span>
                   </div>
-                )}
-              </div>
-
-              <div className="relative z-10 text-zinc-300">
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                </svg>
+                  {topic.hasMeetup && (
+                    <div className="flex items-center justify-between bg-zinc-50 border border-zinc-100 px-3 py-1.5 rounded-sm">
+                      <span className="text-[8px] font-bold uppercase tracking-widest text-zinc-400">
+                        {t('services.meetup')}
+                      </span>
+                      <span className="text-[10px] font-mono font-bold text-zinc-900">
+                        {topic.priceMeetup}
+                      </span>
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
 
-            <div className="space-y-4">
-              <h3 className="text-xl font-medium text-zinc-900 leading-tight group-hover:text-zinc-600 transition-colors">
-                {topic.title}
-              </h3>
-              
-              <p className="text-sm text-zinc-500 leading-relaxed font-light">
-                {topic.desc}
-              </p>
-
-              <ul className="pt-4 space-y-3">
-                {Array.isArray(topic.bullets) && topic.bullets.map((bullet, idx) => (
-                  <li key={idx} className="flex gap-3 text-xs text-zinc-400 font-medium leading-relaxed italic">
-                    <span className="text-zinc-200">/</span>
-                    <span>{bullet}</span>
-                  </li>
-                ))}
-              </ul>
+            <div className="md:w-2/3 flex flex-col justify-between">
+              <div>
+                <h3 className="text-lg font-medium text-zinc-900 leading-tight mb-2 group-hover:text-zinc-600 transition-colors">
+                  {topic.title}
+                </h3>
+                <p className="text-sm text-zinc-500 leading-relaxed font-light mb-4">
+                  {topic.desc}
+                </p>
+                <ul className="space-y-2">
+                  {Array.isArray(topic.bullets) && topic.bullets.map((bullet, idx) => (
+                    <li key={idx} className="flex gap-2 text-xs text-zinc-400 font-medium leading-relaxed italic">
+                      <span className="text-zinc-200">/</span>
+                      <span>{bullet}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         ))}
