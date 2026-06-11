@@ -32,7 +32,7 @@ export default function Hero() {
             className="w-48 h-48 md:w-64 md:h-64 grayscale hover:grayscale-0 transition-all duration-700 overflow-hidden border border-zinc-100"
           >
             <img 
-              src="/ethan_chen_professional_headshot_1780492073621.png" 
+              src={t('hero.imageUrl') || "/ethan_chen_professional_headshot_1780492073621.png"} 
               alt="Ethan Chen" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"

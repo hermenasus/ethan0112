@@ -9,6 +9,7 @@ const __dirname = path.dirname(__filename);
 
 async function startServer() {
   const app = express();
+  app.use(express.json({ limit: '10mb' }));
   const PORT = 3000;
 
   // JSON reviews file path
@@ -126,6 +127,85 @@ async function startServer() {
       res.json({ message: 'Sync successful', count });
     } catch (error) {
       res.status(500).json({ error: 'Sync failed' });
+    }
+  });
+
+  // Cached locales to optimize reads and support read-only file systems gracefully
+  let cachedLocales: { [key: string]: any } | null = null;
+
+  async function loadLocales() {
+    if (cachedLocales) return cachedLocales;
+    try {
+      const [enData, zhCNData, zhTWData] = await Promise.all([
+        fs.readFile(path.join(__dirname, 'src/locales/en.json'), 'utf-8').then(JSON.parse).catch(() => ({})),
+        fs.readFile(path.join(__dirname, 'src/locales/zh-CN.json'), 'utf-8').then(JSON.parse).catch(() => ({})),
+        fs.readFile(path.join(__dirname, 'src/locales/zh-TW.json'), 'utf-8').then(JSON.parse).catch(() => ({}))
+      ]);
+      cachedLocales = {
+        en: enData,
+        'zh-CN': zhCNData,
+        'zh-TW': zhTWData
+      };
+      return cachedLocales;
+    } catch (err) {
+      console.error('Error loading locales from files', err);
+      return {};
+    }
+  }
+
+  // API to get all locale files
+  app.get('/api/locales', async (req, res) => {
+    try {
+      const locales = await loadLocales();
+      res.json(locales);
+    } catch (error) {
+      res.status(500).json({ error: 'Failed to load locales' });
+    }
+  });
+
+  // API to save all locale files
+  app.post('/api/save-locales', async (req, res) => {
+    try {
+      const { en, 'zh-CN': zhCN, 'zh-TW': zhTW, password } = req.body;
+      
+      const adminPassword = process.env.ADMIN_PASSWORD || 'ethan2026';
+      if (password !== adminPassword) {
+        return res.status(401).json({ error: 'Unauthorized save attempt' });
+      }
+
+      if (!en || !zhCN || !zhTW) {
+        return res.status(400).json({ error: 'Invalid locales payload' });
+      }
+
+      cachedLocales = { en, 'zh-CN': zhCN, 'zh-TW': zhTW };
+
+      // Write to disk
+      try {
+        await Promise.all([
+          fs.writeFile(path.join(__dirname, 'src/locales/en.json'), JSON.stringify(en, null, 2)),
+          fs.writeFile(path.join(__dirname, 'src/locales/zh-CN.json'), JSON.stringify(zhCN, null, 2)),
+          fs.writeFile(path.join(__dirname, 'src/locales/zh-TW.json'), JSON.stringify(zhTW, null, 2))
+        ]);
+        console.log('Successfully saved and persisted locales on disk');
+      } catch (writeErr) {
+        console.warn('Failed to write locales to disk (possibly read-only environment). Serving from memory-cache instead.', writeErr);
+      }
+
+      res.json({ message: 'Saved successfully' });
+    } catch (error) {
+      console.error('Failed to save locales', error);
+      res.status(500).json({ error: 'Failed to save locales' });
+    }
+  });
+
+  // API for admin login
+  app.post('/api/admin/login', (req, res) => {
+    const { password } = req.body;
+    const adminPassword = process.env.ADMIN_PASSWORD || 'ethan2026';
+    if (password === adminPassword) {
+      res.json({ success: true, token: 'admin-authorized-token-2026' });
+    } else {
+      res.status(401).json({ error: 'Invalid password' });
     }
   });
 
